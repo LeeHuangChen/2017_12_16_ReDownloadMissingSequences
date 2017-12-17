@@ -1,5 +1,6 @@
 import Configurations as conf
 import util
+import Bio
 from cPickle import dump, load
 from Bio import Entrez
 import os
@@ -128,8 +129,7 @@ def downloadSteps():
 				f.write("\n\n")
 			with open(progDir, "w") as f:
 				f.write(str(i))
-			#print "waiting..."
-			#time.sleep(.12)
+
 
 
 def main():

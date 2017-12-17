@@ -1,7 +1,7 @@
-import DownloadPFAM
+import ReDownloadSeq
 
 def main():
-	DownloadPFAM.main()
+	ReDownloadSeq.main()
 
 if __name__=="__main__":
 	main()

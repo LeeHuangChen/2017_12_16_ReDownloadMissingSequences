@@ -1,8 +1,8 @@
 #Configuration file for Download PFAM Data
 
-PFAMFolder="PFamMappings"
+PFAMFolder="InitialDownload"
 #extension of the input files
-PFamExt=".txt"
+PFamExt=".fasta"
 
 
 #an email to be associated with the Protein Data Base downloads
